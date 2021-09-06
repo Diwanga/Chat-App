@@ -19,7 +19,7 @@
 .nav-bar {
   width: 100%;
   height: 66px;
-  background-color: #002766;
+  background-color: #8000ff;
 }
 
 .logo-tab {
@@ -32,6 +32,12 @@
 }
 
 .logout-tab {
+    /* border: 2px solid black;
+  background-color: white;
+  color: black;
+  padding: 10px 28px;
+  font-size: 16px; */
+
   position: absolute;
   top: 22px;
   right: 22px;
@@ -98,4 +104,27 @@
   position: relative;
   left: calc(50vw - 33px);
   top: calc(50vh - 22px);
+}
+.loader {
+   margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid #3498db;
+  width: 120px;
+  height: 120px;
+  -webkit-animation: spin 2s linear infinite; /* Safari */
+  animation: spin 2s linear infinite;
+}
+
+/* Safari */
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
 }

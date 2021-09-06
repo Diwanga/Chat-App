@@ -32,3 +32,6 @@ function Login() {
 }
 
 export default Login
+
+
+//HTTPS=true npm start and it will take care of https on the localhost. The boolean HTTPS=true will be used to tell npm that it needs to start the https connection(for fb login in localhost)
